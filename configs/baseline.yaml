@@ -1,0 +1,14 @@
+experiment:
+  name: baseline
+  seed: 42
+
+agent:
+  max_steps: 8
+
+evaluation:
+  samples_per_task: 1
+  metrics:
+    - success_rate
+    - latency
+    - token_count
+
