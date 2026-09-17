@@ -64,6 +64,8 @@ pytest
 - 第一周：[复合 AI 系统](docs/readings/week01-compound-ai-systems.zh-CN.md)
 - 第一周：[四种 Agentic Design Patterns](docs/readings/week01-agentic-design-patterns.zh-CN.md)
 - [Long-Running Agent Harness 演进](docs/readings/long-running-agent-harness-evolution.zh-CN.md)
+  - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.zh-CN.md)
+  - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.zh-CN.md)
 
 ## 实验原则
 

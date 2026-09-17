@@ -9,6 +9,11 @@
 3. [Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) — 2026 年 4 月 8 日
 4. [Using agent memory](https://platform.claude.com/docs/en/managed-agents/memory) — Claude Platform 文档
 
+详细单篇笔记：
+
+- [Effective Harnesses for Long-Running Agents](effective-harnesses-for-long-running-agents.zh-CN.md)
+- [Harness Design for Long-Running Application Development](harness-design-long-running-apps.zh-CN.md)
+
 ## 1. 什么是 Agent Harness？
 
 Agent harness 是模型周围的控制平面。它反复构造模型输入、调用模型、校验并执行模型请求的
@@ -220,4 +225,3 @@ Harness 学习线只有在满足以下条件后才算完成：
 - 工具执行有边界、经过校验、可观察，并且可以安全重试。
 - Memory 的所有者、访问模式、版本和信任级别均被明确记录。
 - 至少一个 harness 设计决策由消融实验支持，而不只是凭直觉选择。
-

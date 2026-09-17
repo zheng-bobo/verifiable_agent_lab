@@ -9,6 +9,11 @@
 3. [Scaling Managed Agents: Decoupling the brain from the hands](https://www.anthropic.com/engineering/managed-agents) — April 8, 2026
 4. [Using agent memory](https://platform.claude.com/docs/en/managed-agents/memory) — Claude Platform documentation
 
+Detailed article notes:
+
+- [Effective Harnesses for Long-Running Agents](effective-harnesses-for-long-running-agents.md)
+- [Harness Design for Long-Running Application Development](harness-design-long-running-apps.md)
+
 ## 1. What Is an Agent Harness?
 
 An agent harness is the control plane around a model. It repeatedly constructs model input, calls
@@ -230,4 +235,3 @@ The harness track is complete when:
 - Tool execution is bounded, validated, observable, and safe to retry.
 - Memory ownership, access mode, versioning, and trust level are explicit.
 - At least one harness design choice is supported by an ablation rather than intuition alone.
-
