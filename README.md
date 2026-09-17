@@ -61,6 +61,10 @@ pytest
 - [ ] Complete a repeated-sampling baseline
 - [ ] Submit the first upstream open-source contribution
 
+## Reading Notes
+
+- Week 1: [Compound AI Systems](docs/readings/week01-compound-ai-systems.md)
+
 ## Experiment Principles
 
 1. Fix random seeds and save the configuration for every experiment.

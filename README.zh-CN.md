@@ -59,6 +59,10 @@ pytest
 - [ ] 完成 repeated-sampling 基线
 - [ ] 提交首个上游开源贡献
 
+## 阅读笔记
+
+- 第一周：[复合 AI 系统](docs/readings/week01-compound-ai-systems.zh-CN.md)
+
 ## 实验原则
 
 1. 每项实验固定随机种子并保存配置。
