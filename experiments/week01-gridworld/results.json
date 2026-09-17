@@ -1,0 +1,195 @@
+{
+  "seed": 42,
+  "environment": {
+    "shape": [
+      4,
+      4
+    ],
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      3,
+      3
+    ],
+    "obstacles": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "step_reward": -1.0,
+    "goal_reward": 10.0,
+    "max_steps": 50
+  },
+  "value_iteration": {
+    "gamma": 0.95,
+    "converged": true,
+    "iterations": 7,
+    "evaluation": {
+      "reached_goal": true,
+      "steps": 6,
+      "total_reward": 5.0,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  "q_learning": [
+    {
+      "epsilon": 0.01,
+      "episodes": 1500,
+      "mean_return_first_100": 2.65,
+      "mean_return_last_100": 4.95,
+      "greedy_evaluation": {
+        "reached_goal": true,
+        "steps": 6,
+        "total_reward": 5.0,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "epsilon": 0.1,
+      "episodes": 1500,
+      "mean_return_first_100": 2.08,
+      "mean_return_last_100": 4.29,
+      "greedy_evaluation": {
+        "reached_goal": true,
+        "steps": 6,
+        "total_reward": 5.0,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "epsilon": 0.3,
+      "episodes": 1500,
+      "mean_return_first_100": -0.04,
+      "mean_return_last_100": 2.27,
+      "greedy_evaluation": {
+        "reached_goal": true,
+        "steps": 6,
+        "total_reward": 5.0,
+        "path": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      }
+    }
+  ]
+}

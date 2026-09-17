@@ -69,6 +69,10 @@ pytest
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.md)
 
+## Experiments
+
+- [Week 1: GridWorld with Value Iteration and Q-learning](experiments/week01-gridworld/README.md)
+
 ## Experiment Principles
 
 1. Fix random seeds and save the configuration for every experiment.

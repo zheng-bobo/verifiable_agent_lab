@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "Experiments in verifiable LLM agents, evaluation, and reinforcement learning."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+  "numpy>=2.0",
+]
 
 [project.optional-dependencies]
 dev = [
@@ -25,4 +27,3 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
-

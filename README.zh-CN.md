@@ -67,6 +67,10 @@ pytest
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.zh-CN.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.zh-CN.md)
 
+## 实验
+
+- [第一周：GridWorld、Value Iteration 与 Q-learning](experiments/week01-gridworld/README.zh-CN.md)
+
 ## 实验原则
 
 1. 每项实验固定随机种子并保存配置。
