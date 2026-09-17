@@ -1,43 +1,47 @@
 # Verifiable Agent Lab
 
-一个围绕 **LLM Agent、可验证奖励、推理时扩展与可靠评测** 的学习和实验仓库。
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-本项目把以下学习主线整合到一个持续演进的工程中：
+A learning and experimentation repository focused on **LLM agents, verifiable rewards,
+inference-time scaling, and reliable evaluation**.
+
+The project brings the following learning tracks together in one evolving codebase:
 
 - Stanford CS329Z: Engineering AI Agents
 - Hands-on Modern RL
-- nanochat / 小语言模型训练基础
-- Lighteval 与 OpenHands 等开源项目的评测实践
+- nanochat and small-language-model training fundamentals
+- Evaluation practice with open-source projects such as Lighteval and OpenHands
 
-## 目标
+## Goals
 
-构建一个能够调用工具完成代码或数学任务的最小 Agent，并逐步加入：
+Build a minimal agent that can use tools to solve coding or mathematics tasks, then gradually add:
 
-- 结构化工具调用和可复现轨迹
-- 确定性 verifier 与 LLM-as-judge
-- `pass@1`、`pass@k`、`pass^k`、成本和延迟评测
-- repeated sampling、majority vote 与 Best-of-N
-- DPO、GRPO 或 prompt optimization 小型实验
-- 失败分析、reward hacking 检查与安全边界
+- Structured tool calls and reproducible trajectories
+- Deterministic verifiers and LLM-as-judge evaluation
+- `pass@1`, `pass@k`, `pass^k`, cost, and latency metrics
+- Repeated sampling, majority voting, and Best-of-N selection
+- Small DPO, GRPO, or prompt-optimization experiments
+- Failure analysis, reward-hacking checks, and safety boundaries
 
-## 仓库结构
+## Repository Structure
 
 ```text
 .
-├── configs/                  # 实验配置
+├── configs/                   # Experiment configurations
 ├── data/
-│   ├── raw/                  # 原始数据（默认不提交）
-│   └── processed/            # 处理后数据（默认不提交）
+│   ├── raw/                   # Raw data (not committed by default)
+│   └── processed/             # Processed data (not committed by default)
 ├── docs/
-│   └── learning-plan.md      # 课程与项目整合路线
-├── experiments/              # 可复现实验与结果说明
-├── src/verifiable_agent_lab/ # 核心 Python 包
-└── tests/                    # 单元测试与回归测试
+│   ├── learning-plan.md       # Learning plan in English
+│   └── learning-plan.zh-CN.md # Chinese translation
+├── experiments/               # Reproducible experiments and result notes
+├── src/verifiable_agent_lab/  # Core Python package
+└── tests/                     # Unit and regression tests
 ```
 
-## 快速开始
+## Quick Start
 
-需要 Python 3.11 或更高版本。
+Python 3.11 or later is required.
 
 ```bash
 python -m venv .venv
@@ -46,20 +50,20 @@ python -m pip install -e ".[dev]"
 pytest
 ```
 
-## 当前阶段
+## Current Milestones
 
-- [ ] 跑通最小环境与 Agent loop
-- [ ] 保存结构化 trajectory
-- [ ] 建立首批可自动验证任务
-- [ ] 实现基础 evaluation metrics
-- [ ] 完成 repeated-sampling 基线
-- [ ] 提交首个上游开源贡献
+- [ ] Run a minimal environment and agent loop
+- [ ] Save structured trajectories
+- [ ] Create the first automatically verifiable tasks
+- [ ] Implement baseline evaluation metrics
+- [ ] Complete a repeated-sampling baseline
+- [ ] Submit the first upstream open-source contribution
 
-## 实验原则
+## Experiment Principles
 
-1. 每项实验固定随机种子并保存配置。
-2. 先建立 baseline，再修改单一变量。
-3. 同时报告任务成功率、成本、延迟和失败类型。
-4. 区分模型是否生成正确答案（coverage）与系统是否选中答案（precision）。
-5. 所有公开结果必须能够通过 README 中的命令复现。
+1. Fix random seeds and save the configuration for every experiment.
+2. Establish a baseline before changing one variable at a time.
+3. Report task success, cost, latency, and failure categories together.
+4. Distinguish coverage—the model generated a correct answer—from precision—the system selected it.
+5. Ensure every published result can be reproduced with commands documented in the repository.
 

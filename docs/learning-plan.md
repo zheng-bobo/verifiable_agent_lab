@@ -1,5 +1,7 @@
 # Learning and Build Plan
 
+[English](learning-plan.md) | [简体中文](learning-plan.zh-CN.md)
+
 ## Direction
 
 LLM Agent engineering + reinforcement learning + verifiable rewards + reliable evaluation.
