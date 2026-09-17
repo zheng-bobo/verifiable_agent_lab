@@ -64,6 +64,7 @@ pytest
 ## Reading Notes
 
 - Week 1: [Compound AI Systems](docs/readings/week01-compound-ai-systems.md)
+- Week 1: [Four Agentic Design Patterns](docs/readings/week01-agentic-design-patterns.md)
 
 ## Experiment Principles
 

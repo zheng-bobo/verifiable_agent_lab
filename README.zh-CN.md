@@ -62,6 +62,7 @@ pytest
 ## 阅读笔记
 
 - 第一周：[复合 AI 系统](docs/readings/week01-compound-ai-systems.zh-CN.md)
+- 第一周：[四种 Agentic Design Patterns](docs/readings/week01-agentic-design-patterns.zh-CN.md)
 
 ## 实验原则
 
