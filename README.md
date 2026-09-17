@@ -65,6 +65,7 @@ pytest
 
 - Week 1: [Compound AI Systems](docs/readings/week01-compound-ai-systems.md)
 - Week 1: [Four Agentic Design Patterns](docs/readings/week01-agentic-design-patterns.md)
+- [Long-Running Agent Harness Evolution](docs/readings/long-running-agent-harness-evolution.md)
 
 ## Experiment Principles
 
