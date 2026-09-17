@@ -7,10 +7,12 @@ inference-time scaling, and reliable evaluation**.
 
 The project brings the following learning tracks together in one evolving codebase:
 
-- Stanford CS329Z: Engineering AI Agents
-- Hands-on Modern RL
-- nanochat and small-language-model training fundamentals
-- Evaluation practice with open-source projects such as Lighteval and OpenHands
+- [Stanford CS329Z: Engineering AI Agents](https://cs329z.stanford.edu/)
+- [Hands-on Modern RL](https://walkinglabs.github.io/hands-on-modern-rl/preface/introduction)
+- [nanochat](https://github.com/karpathy/nanochat) and small-language-model training fundamentals
+- Evaluation practice with open-source projects such as
+  [Lighteval](https://github.com/huggingface/lighteval) and
+  [OpenHands](https://github.com/All-Hands-AI/OpenHands)
 
 ## Goals
 
@@ -66,4 +68,3 @@ pytest
 3. Report task success, cost, latency, and failure categories together.
 4. Distinguish coverage—the model generated a correct answer—from precision—the system selected it.
 5. Ensure every published result can be reproduced with commands documented in the repository.
-

@@ -6,10 +6,11 @@
 
 本项目把以下学习主线整合到一个持续演进的工程中：
 
-- Stanford CS329Z: Engineering AI Agents
-- Hands-on Modern RL
-- nanochat 与小语言模型训练基础
-- Lighteval、OpenHands 等开源项目的评测实践
+- [Stanford CS329Z: Engineering AI Agents](https://cs329z.stanford.edu/)
+- [Hands-on Modern RL](https://walkinglabs.github.io/hands-on-modern-rl/preface/introduction)
+- [nanochat](https://github.com/karpathy/nanochat) 与小语言模型训练基础
+- [Lighteval](https://github.com/huggingface/lighteval)、
+  [OpenHands](https://github.com/All-Hands-AI/OpenHands) 等开源项目的评测实践
 
 ## 目标
 
@@ -65,4 +66,3 @@ pytest
 3. 同时报告任务成功率、成本、延迟和失败类型。
 4. 区分模型是否生成正确答案（coverage）与系统是否选中答案（precision）。
 5. 所有公开结果必须能够通过仓库中记录的命令复现。
-
