@@ -59,6 +59,10 @@ pytest
 - [ ] 完成 repeated-sampling 基线
 - [ ] 提交首个上游开源贡献
 
+## 学习计划
+
+- [12 周整合学习与构建计划](docs/learning-plan.zh-CN.md)
+
 ## 阅读笔记
 
 - 第一周：[复合 AI 系统](docs/readings/week01-compound-ai-systems.zh-CN.md)

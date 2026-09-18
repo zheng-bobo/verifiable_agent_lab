@@ -61,6 +61,10 @@ pytest
 - [ ] Complete a repeated-sampling baseline
 - [ ] Submit the first upstream open-source contribution
 
+## Learning Plan
+
+- [12-Week Integrated Learning and Build Plan](docs/learning-plan.md)
+
 ## Reading Notes
 
 - Week 1: [Compound AI Systems](docs/readings/week01-compound-ai-systems.md)
