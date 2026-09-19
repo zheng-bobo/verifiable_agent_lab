@@ -1,0 +1,85 @@
+[
+  {
+    "id": "compound-components-en",
+    "question": "Which components can a compound AI system include?",
+    "reference_answer": "A compound AI system can combine model calls, retrievers, databases, external tools, routers, memory, and verifiers.",
+    "answer_groups": [
+      ["retriever"],
+      ["verifier"]
+    ],
+    "evidence_groups": [
+      ["retriever"],
+      ["verifier"]
+    ],
+    "expected_sources": [
+      "week01-compound-ai-systems.md",
+      "week01-compound-ai-systems.zh-CN.md"
+    ]
+  },
+  {
+    "id": "reflection-tools-zh",
+    "question": "Reflection 如何借助外部工具发现模型输出中的错误？",
+    "reference_answer": "Reflection 可以运行单元测试、编译器、网页搜索或形式化 verifier，把外部检查结果作为下一轮改进的证据。",
+    "answer_groups": [
+      ["单元测试"],
+      ["verifier", "评估器"]
+    ],
+    "evidence_groups": [
+      ["单元测试"],
+      ["verifier", "评估器"]
+    ],
+    "expected_sources": [
+      "week01-agentic-design-patterns.md",
+      "week01-agentic-design-patterns.zh-CN.md"
+    ]
+  },
+  {
+    "id": "session-context-en",
+    "question": "Why is a session not the same thing as a context window?",
+    "reference_answer": "A session is a durable logical run that can span multiple model calls and context windows; a context reset changes visible model input without deleting persistent session state.",
+    "answer_groups": [
+      ["session"],
+      ["context window"],
+      ["durable", "persistent"]
+    ],
+    "evidence_groups": [
+      ["session"],
+      ["context window"],
+      ["durable", "persistent"]
+    ],
+    "expected_sources": [
+      "effective-harnesses-for-long-running-agents.md",
+      "effective-harnesses-for-long-running-agents.zh-CN.md",
+      "harness-design-long-running-apps.md",
+      "harness-design-long-running-apps.zh-CN.md",
+      "long-running-agent-harness-evolution.md",
+      "long-running-agent-harness-evolution.zh-CN.md"
+    ]
+  },
+  {
+    "id": "initializer-agent-zh",
+    "question": "长任务 Harness 中的 Initializer Agent 需要创建哪些持久化产物？",
+    "reference_answer": "Initializer Agent 应创建结构化 feature list 和 progress log，并建立可运行、可验证的初始项目状态。",
+    "answer_groups": [
+      ["feature list"],
+      ["progress log"]
+    ],
+    "evidence_groups": [
+      ["feature list"],
+      ["progress log"]
+    ],
+    "expected_sources": [
+      "effective-harnesses-for-long-running-agents.md",
+      "effective-harnesses-for-long-running-agents.zh-CN.md"
+    ]
+  },
+  {
+    "id": "missing-exam-pass-rate-zh",
+    "question": "这些学习笔记给出的 CS329Z 2026 官方考试通过率是多少？",
+    "reference_answer": "知识库没有提供 CS329Z 2026 官方考试通过率，因此应当拒绝猜测。",
+    "answer_groups": [],
+    "evidence_groups": [],
+    "expected_sources": [],
+    "should_abstain": true
+  }
+]

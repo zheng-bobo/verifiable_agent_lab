@@ -72,10 +72,15 @@ pytest
 - [Long-Running Agent Harness Evolution](docs/readings/long-running-agent-harness-evolution.md)
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.md)
+- Week 2: [RAGLite and the Minimal RAG Baseline](docs/readings/week02-raglite-reference.md)
 
 ## Experiments
 
 - [Week 1: GridWorld with Value Iteration and Q-learning](experiments/week01-gridworld/README.md)
+- [Week 2: Minimal Bilingual RAG and Repeated Sampling](experiments/week02-rag-sampling/README.md)
+  is an independent, from-scratch reimplementation inspired by the open-source
+  [RAGLite](https://github.com/superlinear-ai/raglite) architecture; RAGLite is a reference, not a
+  runtime dependency.
 
 ## Experiment Principles
 

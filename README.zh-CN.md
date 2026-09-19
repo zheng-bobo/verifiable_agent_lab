@@ -70,10 +70,14 @@ pytest
 - [Long-Running Agent Harness 演进](docs/readings/long-running-agent-harness-evolution.zh-CN.md)
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.zh-CN.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.zh-CN.md)
+- 第二周：[RAGLite 与最小 RAG 基线](docs/readings/week02-raglite-reference.zh-CN.md)
 
 ## 实验
 
 - [第一周：GridWorld、Value Iteration 与 Q-learning](experiments/week01-gridworld/README.zh-CN.md)
+- [第二周：最小双语 RAG 与重复采样](experiments/week02-rag-sampling/README.zh-CN.md)
+  是参考开源项目 [RAGLite](https://github.com/superlinear-ai/raglite) 架构、从零独立重新实现的最小
+  RAG；RAGLite 仅作为架构参照，不是运行时依赖。
 
 ## 实验原则
 

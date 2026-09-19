@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "created_at": "2026-09-19T10:26:42.547383+00:00",
+    "embedding_model": "fixture-feature-hash-v1",
+    "generation_model": "fixture-scripted-v1",
+    "sample_counts": [
+      1,
+      4,
+      8,
+      16
+    ],
+    "samples_generated_per_question": 16,
+    "top_k": 4,
+    "seed": 329,
+    "temperature": 0.7,
+    "question_count": 5,
+    "backend": "fixture",
+    "notes_root": "docs/readings",
+    "excluded_sources": [
+      "week02-raglite-reference.md",
+      "week02-raglite-reference.zh-CN.md"
+    ],
+    "document_count": 10,
+    "chunk_count": 158,
+    "chunk_max_chars": 1200,
+    "chunk_overlap_chars": 160,
+    "scientific_result": false
+  },
+  "failures": {
+    "invalid_schema": [
+      {
+        "case_id": "compound-components-en",
+        "sample": 3,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "compound-components-en",
+        "sample": 7,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "compound-components-en",
+        "sample": 11,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "compound-components-en",
+        "sample": 15,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "sample": 3,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "sample": 7,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "sample": 11,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "sample": 15,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "session-context-en",
+        "sample": 3,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "session-context-en",
+        "sample": 7,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "session-context-en",
+        "sample": 11,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "session-context-en",
+        "sample": 15,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "initializer-agent-zh",
+        "sample": 3,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "initializer-agent-zh",
+        "sample": 7,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "initializer-agent-zh",
+        "sample": 11,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "initializer-agent-zh",
+        "sample": 15,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "sample": 3,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "sample": 7,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "sample": 11,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "sample": 15,
+        "error": "invalid JSON: Expecting property name enclosed in double quotes",
+        "raw_output": "{this is deliberately invalid JSON"
+      }
+    ],
+    "retrieval_miss": [
+      {
+        "case_id": "initializer-agent-zh",
+        "question": "长任务 Harness 中的 Initializer Agent 需要创建哪些持久化产物？"
+      }
+    ],
+    "correct_generated_but_not_selected": [
+      {
+        "case_id": "compound-components-en",
+        "k": 4,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 2
+      },
+      {
+        "case_id": "compound-components-en",
+        "k": 8,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 4
+      },
+      {
+        "case_id": "compound-components-en",
+        "k": 16,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 8
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "k": 4,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 2
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "k": 8,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 4
+      },
+      {
+        "case_id": "reflection-tools-zh",
+        "k": 16,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 8
+      },
+      {
+        "case_id": "session-context-en",
+        "k": 4,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 2
+      },
+      {
+        "case_id": "session-context-en",
+        "k": 8,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 4
+      },
+      {
+        "case_id": "session-context-en",
+        "k": 16,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 8
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "k": 4,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 2
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "k": 8,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 4
+      },
+      {
+        "case_id": "missing-exam-pass-rate-zh",
+        "k": 16,
+        "selected_confidence": 0.95,
+        "correct_sample_count": 8
+      }
+    ]
+  }
+}
