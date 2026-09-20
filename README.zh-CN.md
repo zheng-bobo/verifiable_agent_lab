@@ -71,6 +71,7 @@ pytest
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.zh-CN.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.zh-CN.md)
 - 第二周：[RAGLite 与最小 RAG 基线](docs/readings/week02-raglite-reference.zh-CN.md)
+- 第三周：[Tool Use、Function Calling、MCP、Sandbox 与 Retry](docs/readings/week03-tool-use-and-harness.zh-CN.md)
 
 ## 实验
 
@@ -78,6 +79,9 @@ pytest
 - [第二周：最小双语 RAG 与重复采样](experiments/week02-rag-sampling/README.zh-CN.md)
   是参考开源项目 [RAGLite](https://github.com/superlinear-ai/raglite) 架构、从零独立重新实现的最小
   RAG；RAGLite 仅作为架构参照，不是运行时依赖。
+- [第三周：最小 Agent Harness](experiments/week03-minimal-harness/README.zh-CN.md)：从零实现
+  `observe → decide → validate → act → observe → stop`，并加入工具白名单、硬预算、有限重试与
+  JSONL event log。
 
 ## 实验原则
 

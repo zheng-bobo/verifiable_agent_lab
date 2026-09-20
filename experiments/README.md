@@ -10,3 +10,8 @@ Each experiment should live in its own directory and include:
 
 Suggested first experiment: compare pass@k, majority vote and oracle coverage under repeated sampling.
 
+Implemented experiments:
+
+- `week01-gridworld`: dynamic programming and tabular RL foundations.
+- `week02-rag-sampling`: minimal RAG and repeated-sampling evaluation.
+- `week03-minimal-harness`: framework-free observe-decide-act loop with host-enforced controls.

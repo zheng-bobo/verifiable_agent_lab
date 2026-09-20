@@ -73,6 +73,7 @@ pytest
   - [Effective Harnesses for Long-Running Agents](docs/readings/effective-harnesses-for-long-running-agents.md)
   - [Harness Design for Long-Running Application Development](docs/readings/harness-design-long-running-apps.md)
 - Week 2: [RAGLite and the Minimal RAG Baseline](docs/readings/week02-raglite-reference.md)
+- Week 3: [Tool Use, Function Calling, MCP, Sandboxing, and Retries](docs/readings/week03-tool-use-and-harness.md)
 
 ## Experiments
 
@@ -81,6 +82,9 @@ pytest
   is an independent, from-scratch reimplementation inspired by the open-source
   [RAGLite](https://github.com/superlinear-ai/raglite) architecture; RAGLite is a reference, not a
   runtime dependency.
+- [Week 3: Minimal Agent Harness](experiments/week03-minimal-harness/README.md) implements
+  `observe → decide → validate → act → observe → stop` from scratch, with a tool allowlist, hard
+  budgets, bounded retries, and an append-only JSONL event log.
 
 ## Experiment Principles
 
