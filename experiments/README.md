@@ -15,3 +15,4 @@ Implemented experiments:
 - `week01-gridworld`: dynamic programming and tabular RL foundations.
 - `week02-rag-sampling`: minimal RAG and repeated-sampling evaluation.
 - `week03-minimal-harness`: framework-free observe-decide-act loop with host-enforced controls.
+- `week03-reinforce`: NumPy REINFORCE versus a learned state-value baseline on CartPole-v1.

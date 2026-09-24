@@ -85,6 +85,9 @@ pytest
 - [Week 3: Minimal Agent Harness](experiments/week03-minimal-harness/README.md) implements
   `observe → decide → validate → act → observe → stop` from scratch, with a tool allowlist, hard
   budgets, bounded retries, and an append-only JSONL event log.
+- [Week 3: REINFORCE and a Value Baseline](experiments/week03-reinforce/README.md) implements the
+  policy gradient, Monte Carlo returns, a state-value baseline, and explicit gradient updates from
+  scratch in NumPy, then compares both variants across multiple CartPole seeds.
 
 ## Experiment Principles
 

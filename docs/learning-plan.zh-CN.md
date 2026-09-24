@@ -52,14 +52,14 @@
 | 第 11 周 | 安全、可观察性与消融 | 权限与预算、Harness 四组对比 |
 | 第 12 周 | 发布与复盘 | 报告、演示、失败分析、上游 PR |
 
-## 当前进度（2026-09-20）
+## 当前进度（2026-09-24）
 
 - 第 0 周：仓库、Python 包、pytest、Ruff 与实验结构已建立。
 - 第 1 周：GridWorld、Value Iteration、Q-learning、三组探索率实验和两篇 CS329Z 阅读笔记已完成；Agent–MDP 独立总结与正式失败分析仍可补充。
 - 第 2 周：最小双语 RAG、structured output、1/4/8/16 repeated sampling、`pass@k`、
   selection 与失败案例记录已经完成。
-- 第 3 周进行中：三工具最小 Harness、工具白名单、预算、有限 retry 和 JSONL trace 已完成；
-  下一步是 REINFORCE、value baseline 与 Harness 失败案例实验。
+- 第 3 周进行中：三工具最小 Harness、工具白名单、预算、有限 retry、JSONL trace、从零实现的
+  NumPy REINFORCE 与 value baseline 对照已经完成；下一步是 Harness 失败案例实验。
 
 ---
 

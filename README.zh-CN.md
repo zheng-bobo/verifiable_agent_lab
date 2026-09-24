@@ -82,6 +82,9 @@ pytest
 - [第三周：最小 Agent Harness](experiments/week03-minimal-harness/README.zh-CN.md)：从零实现
   `observe → decide → validate → act → observe → stop`，并加入工具白名单、硬预算、有限重试与
   JSONL event log。
+- [第三周：REINFORCE 与 Value Baseline](experiments/week03-reinforce/README.zh-CN.md)：使用
+  NumPy 从零实现策略梯度、Monte Carlo return、状态价值 baseline 和显式梯度更新，并在
+  CartPole 上完成多随机种子对照。
 
 ## 实验原则
 

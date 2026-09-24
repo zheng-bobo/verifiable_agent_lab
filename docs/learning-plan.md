@@ -53,14 +53,15 @@ Coding or mathematics tasks are preferred because they support deterministic ver
 | Week 11 | Safety, observability, and ablation | Permissions, budgets, four harness variants |
 | Week 12 | Release and retrospective | Report, demo, failure analysis, upstream PR |
 
-## Current Progress — September 20, 2026
+## Current Progress — September 24, 2026
 
 - Week 0: the repository, Python package, pytest, Ruff, and experiment structure exist.
 - Week 1: GridWorld, value iteration, Q-learning, three exploration-rate experiments, and two CS329Z reading notes are complete; a standalone Agent–MDP note and formal failure analysis remain optional follow-ups.
 - Week 2: the minimal bilingual RAG, structured output, 1/4/8/16 repeated sampling, `pass@k`,
   selection analysis, and failure-case records are complete.
-- Week 3 is in progress: the three-tool minimal harness, allowlist, budgets, bounded retries, and
-  JSONL trace are implemented; REINFORCE, a value baseline, and harness failure experiments remain.
+- Week 3 is in progress: the three-tool minimal harness, allowlist, budgets, bounded retries, JSONL
+  tracing, and the from-scratch NumPy REINFORCE/value-baseline comparison are complete; the harness
+  failure-case experiment remains.
 
 ---
 
