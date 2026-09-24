@@ -131,6 +131,7 @@ class AgentHarness:
                 event_log.events,
                 max_observations=self.config.max_observations_in_context,
             )
+            print(f"=== Step {step} ===\n{prompt}\n=== End of Step {step} ===\n")
             try:
                 output = self._decide(prompt, step, usage, started, event_log, resolved_run_id)
             except _BudgetExceeded as error:
@@ -165,6 +166,8 @@ class AgentHarness:
                 completion_tokens=output.completion_tokens,
                 latency_ms=output.latency_ms,
             )
+            print(f"=== Step {step} === Model Output: {output.content} ===\n")
+
 
             budget_reason = self._budget_reason(usage, started, allow_equal=True)
             if budget_reason is not None:
@@ -274,6 +277,10 @@ class AgentHarness:
                 source=action.tool_name,
                 content=result.content,
                 is_error=result.is_error,
+            )
+            print(
+                f"=== Step {step} ===\n Action: {action}\n"
+                f"=== Result of Action {result.content} ===\n"
             )
 
     def _decide(

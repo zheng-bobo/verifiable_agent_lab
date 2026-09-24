@@ -19,7 +19,8 @@ from verifiable_agent_lab.harness import (
     ScriptedDecisionProvider,
     ToolRegistry,
 )
-from verifiable_agent_lab.harness.tools import ToolResult, ToolSpec
+from verifiable_agent_lab.harness.tools import ToolSpec
+from verifiable_agent_lab.harness.types import ToolResult
 from verifiable_agent_lab.rag.backends import OllamaBackend
 from verifiable_agent_lab.rag.chunking import ChunkerConfig, chunk_documents
 from verifiable_agent_lab.rag.documents import load_markdown_documents
@@ -33,7 +34,7 @@ class FixtureDocumentSearch:
     """Offline stand-in used only to demonstrate the complete event loop."""
 
     spec = ToolSpec(
-        name="document_search",
+        name="document_search", # type: ignore
         description="Search a deterministic fixture that represents the bilingual notes.",
         input_schema={
             "type": "object",
@@ -71,7 +72,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--base-url", default="http://localhost:11434")
     parser.add_argument("--embedding-model", default="qwen3-embedding:0.6b")
-    parser.add_argument("--generation-model", default="qwen3:4b")
+    parser.add_argument("--generation-model", default="qwen3:4b-instruct")
     parser.add_argument("--notes-root", type=Path, default=ROOT / "docs" / "readings")
     parser.add_argument(
         "--index", type=Path, default=ROOT / "data" / "processed" / "week03-harness-index.npz"

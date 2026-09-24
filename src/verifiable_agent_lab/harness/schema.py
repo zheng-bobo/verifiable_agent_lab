@@ -103,6 +103,8 @@ def validate_arguments(arguments: dict[str, Any], schema: dict[str, Any]) -> Non
 
 def _validate_value(value: Any, schema: dict[str, Any], *, path: str) -> None:
     expected = schema.get("type")
+    if not isinstance(expected, str):
+        raise ValueError(f"argument {path!r} has an invalid schema type")
     valid = {
         "string": isinstance(value, str),
         "number": isinstance(value, int | float) and not isinstance(value, bool),
